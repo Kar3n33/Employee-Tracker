@@ -24,11 +24,11 @@ INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
 VALUES
   ('Sid', 'Bayou', 1, NULL),
-  ('Thomas', 'Landen', 2, NULL),
+  ('Thomas', 'Landen', 2, 1),
   ('Tristan', 'Knight', 3, NULL),
-  ('Takari', 'Sauvignon', 4, NULL),
+  ('Takari', 'Sauvignon', 4, 3),
   ('Isolde', 'Waterfall', 5, NULL),
-  ('Azuhre', 'Mando', 6, NULL),
+  ('Azuhre', 'Mando', 6, 5),
   ('Grogu', 'Doe', 7, NULL),
-  ('Alaya', 'Kingston', 8, NULL);
+  ('Alaya', 'Kingston', 8, 7);
 
