@@ -13,11 +13,11 @@ const connection = mysql.createConnection({
   });
 
 // connect to the mysql server and sql database
-connection.connect((err) {
+connection.connect((err) => {
 if (err) throw err;
 console.log('connected as id ' + connection.threadID);
 connection.end();
 });
-// run the start function after the connection is made to prompt the user
+
 
 
